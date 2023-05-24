@@ -1,0 +1,84 @@
+/* CSS styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    padding-bottom: 2.5em;
+    /* Retro videogame font */
+}
+
+.sidebar,
+.footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.title-bar {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.title-bar img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.content {
+    /* Adjust content margin to match sidebar width */
+    padding: 20px;
+    position: relative;
+    padding-bottom: 2.5em;
+    line-height: 1.5;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* line-height: 1.5; */
+}
+
+.footer li{
+    width: 33%;
+}
+
+/* CSS code for navigation bar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%; /* Set the width to 100% */
+}
+
+.navbar li {
+    float: left;
+    width: 20%; /* Divide the width equally for each link */
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0; /* Adjust the padding as needed */
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.video-game-hr {
+    background-image: linear-gradient(to right, #000000, #FFFFFF, #000000);
+      height: 3px;
+      border: none;
+  }
